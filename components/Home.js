@@ -12,7 +12,7 @@ const Home = ({ authorImage }) => {
         {/* Desktop Image Starts */}
         <img
           className="hidden from-lg:block fixed w-1/3 h-[calc(100vh-80px)] left-40 top-40 rounded-30 shadow-1 object-cover"
-          src={authorImage ? authorImage : "assets/img/dark.jpg"}
+          src={authorImage ? authorImage : "assets/img/Risky.JPG"}
           alt=""
         />
         {/* Desktop Image Ends */}
@@ -33,7 +33,7 @@ const Home = ({ authorImage }) => {
               </span>
             </h1>
             <p className="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
-              I'm a Tunisian based web designer &amp; front‑end developer
+              I'm a Indonesian based product | project manager &amp; product engineer
               focused on crafting clean &amp; user‑friendly experiences, I am
               passionate about building excellent software that improves the
               lives of those around me.
