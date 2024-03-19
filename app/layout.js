@@ -9,6 +9,7 @@ import TunisState from "@/context/context";
 import TunisCss from "@/layouts/TunisCss";
 import "@css/styleswitcher.css";
 import { Open_Sans, Poppins } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
           className={`${fontFamily} font-Poppins text-fs-16 font-medium leading-lh-1.6`}
         >
           {children}
+          <SpeedInsights/>
         </body>
       </html>
     </TunisState>
