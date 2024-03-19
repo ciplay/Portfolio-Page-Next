@@ -27,9 +27,9 @@ const Home = ({ authorImage }) => {
             {/* Mobile Image Ends */}
             {/* Informations Starts */}
             <h1 className="text-fs-51 text-accent font-Poppins relative uppercase font-bold leading-lh-62 pl-70 before:absolute before:left-0 before:top-29 before:h-4 before:w-40 before:rounded-10 custom-md-2:text-fs-42 down-xl:before:hidden down-xl:pl-0 custom-md-2:leading-lh-52 down-md:text-fs-38 down-md:leading-lh-48 down-md:mt-29 down-md:mb-13 xs:text-fs-29 xs:leading-lh-39 xs:mt-18">
-              I'm steve milner.
+              I'm Risky Satria.
               <span className={`block ${dark ? "text-white" : "text-black-6"}`}>
-                web designer
+                Product Manager
               </span>
             </h1>
             <p className="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
