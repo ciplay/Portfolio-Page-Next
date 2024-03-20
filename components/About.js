@@ -141,7 +141,7 @@ const educations = [
     date: "2013 - 2017",
     title: "Bachelor of Computer Science",
     unv: "Indraprasta University PGRI - Jakarta (Indonesia)",
-    desc: "Undergraduated with GPA = 2.9",
+    desc: "Undergraduate with GPA = 2.9",
   },
 ];
 
