@@ -8,21 +8,21 @@ const bio = [
   {
     id: 11,
     data: [
-      { id: 1, type: "First Name", value: "Steve" },
-      { id: 2, type: "Last Name", value: "Milner" },
-      { id: 3, type: "Age", value: "27 Years" },
-      { id: 4, type: "Nationality", value: "Tunisian" },
+      { id: 1, type: "First Name", value: "Risky" },
+      { id: 2, type: "Last Name", value: "Satria" },
+      { id: 3, type: "Age", value: "35 Years" },
+      { id: 4, type: "Nationality", value: "Indonesian" },
       { id: 5, type: "Freelance", value: "Available" },
     ],
   },
   {
     id: 12,
     data: [
-      { id: 6, type: "Address", value: "Tunis" },
-      { id: 7, type: "Phone", value: "+216 21 184 010" },
-      { id: 8, type: "Email", value: "demo@demo.com" },
-      { id: 9, type: "Skype", value: "steve.milner" },
-      { id: 10, type: "Langages", value: "French, English" },
+      { id: 6, type: "Address", value: "Tangerang & Depok Cities (Indonesia)" },
+      { id: 7, type: "Phone", value: "+62 877 8195 2898" },
+      { id: 8, type: "Email", value: "riskysatria666@gmail.com" },
+      // { id: 9, type: "Skype", value: "risky satria" },
+      { id: 10, type: "Languages", value: "Indonesia (native), English (professional)" },
     ],
   },
 ];
@@ -31,78 +31,134 @@ const counters = [
   {
     id: 1,
     title: 'years of <span className="block">experience</span>',
-    value: "12",
+    value: "10",
   },
   {
     id: 2,
     title: 'completed <span className="block">projects</span>',
-    value: "97",
+    value: "30",
   },
   {
     id: 3,
     title: 'happy <span className="block">customers</span>',
-    value: "81",
+    value: "20",
   },
-  { id: 4, title: 'awards <span className="block">won</span>', value: "53" },
+  // { id: 4, title: 'awards <span className="block">won</span>', value: "0" },
 ];
 
 const experiences = [
   {
     id: 1,
-    date: "2018 - Present",
-    title: "web developer",
-    company: "envato",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "May 2023 - Present",
+    title: "Product Owner | Product Manager | Project Manager",
+    company: "career break",
+    desc: "Trying to evolving and be a better profesional in digital product development.",
   },
   {
     id: 2,
-    date: "2013 - 2018",
-    title: "UI/UX Designer",
-    company: "Themeforest",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "Jul 2022 - May 2023",
+    title: "Product Owner assigned to Project Manager",
+    company: "IFG Life (outsource by PT. Indocyber Global Teknologi)",
+    desc: "I am assigned for ERP implementing initiation using Oracle E - Business Suite",
   },
   {
     id: 3,
-    date: "2005 - 2013",
-    title: "consultant",
-    company: "Videohive",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "Jul 2021 - Jun 2022",
+    title: "Consultant",
+    company: "PT Satu Nusantara Inklusif",
+    desc: "Build a digital product with cutting edge technologies",
+  },
+  {
+    id: 4,
+    date: "Sep 2020 - Jun 2021",
+    title: "Product Engineer",
+    company: "career break",
+    desc: "Reach a better perspective to achieve goals of professional development.",
+  },
+  {
+    id: 5,
+    date: "Jun 2020 - Aug 2020",
+    title: "Frontend Developer",
+    company: "OXXO Creative Digital Agency",
+    desc: "ReactJs implementation and it's dependencies",
+  },
+  {
+    id: 6,
+    date: "Feb 2019 - Apr 2020",
+    title: "Product Engineer",
+    company: "GREDU",
+    desc: " Help development for Gredu’s Platform",
+  },
+  {
+    id: 7,
+    date: "Apr 2018 - Feb 2019 ",
+    title: "Information Technology Consultant",
+    company: "BADAN PENGAWAS OBAT DAN MAKANAN REPUBLIK INDONESIA",
+    desc: "CodeIgniter v 3 as a php framework implementation ",
+  },
+  {
+    id: 8,
+    date: "Feb 2018 - Feb 2019",
+    title: "Full Stack Developer",
+    company: "PT Candi Berkah Tehnologi",
+    desc: "PHP for core language creating web app native",
+  },
+  {
+    id: 9,
+    date: "Sep 2016 - Feb 2017",
+    title: "IT Staff(System Administrator and Infrastructure)",
+    company: "PT. Niaga Karya Paramitra",
+    desc: "Linux Administrator(CentOS) and Infrastructure(Server and it’s connection)",
+  },
+  {
+    id: 10,
+    date: "Dec 2013 - Jun 2014 ",
+    title: "IT Staff(Developer)",
+    company: "PT. Multi Selaras Abadi",
+    desc: "Help development application with VB6 and Microsoft Access 98",
   },
 ];
 
 const educations = [
-  {
-    id: 1,
-    date: "2015",
-    title: "Engineer Degree",
-    unv: "Oxford University",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
-  },
-  {
-    id: 2,
-    date: "2012",
-    title: "Master Degree",
-    unv: "Kiev University",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
-  },
+  // Disable for this time
+  // {
+  //   id: 1,
+  //   date: "2015",
+  //   title: "Engineer Degree",
+  //   unv: "Oxford University",
+  //   desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+  // },
+  // {
+  // Disable for this time
+  //   id: 2,
+  //   date: "2012",
+  //   title: "Master Degree",
+  //   unv: "Kiev University",
+  //   desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+  // },
   {
     id: 3,
-    date: "2009",
-    title: "Bachelor Degree",
-    unv: "Tunis High School",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2013 - 2017",
+    title: "Bachelor of Computer Science",
+    unv: "Indraprasta University PGRI - Jakarta (Indonesia)",
+    desc: "Undergraduated with GPA = 2.9",
   },
 ];
 
 const skills = [
-  { id: 1, name: "html", value: "25" },
-  { id: 2, name: "javascript", value: "89" },
-  { id: 3, name: "css", value: "70" },
-  { id: 4, name: "php", value: "66" },
-  { id: 5, name: "wordpress", value: "95" },
-  { id: 6, name: "jquery", value: "50" },
-  { id: 7, name: "angular", value: "65" },
-  { id: 8, name: "react", value: "45" },
+  { id: 1, name: "html", value: "70" },
+  { id: 2, name: "javascript", value: "80" },
+  { id: 3, name: "css", value: "80" },
+  { id: 4, name: "php", value: "85" },
+  { id: 5, name: "wordpress", value: "80" },
+  { id: 6, name: "jquery", value: "70" },
+  // { id: , name: "angular", value: "0" },
+  { id: 7, name: "react", value: "80" },
+  { id: 8, name: "communication", value: "80" },
+  { id: 9, name: "project management", value: "80" },
+  { id: 10, name: "product management", value: "80" },
+  { id: 11, name: "microsoft project", value: "80" },
+  { id: 12, name: "jira", value: "80" },
 ];
 
 const About = () => {
@@ -126,7 +182,7 @@ const About = () => {
               </h3>
               <img
                 className="hidden xs:block rounded-full border-4 border-solid border-black-3 w-230 h-230 mb-25 mx-auto"
-                src="assets/img/dark-img-mobile.jpg"
+                src="assets/img/Risky.JPG"
                 alt=""
               />
               <div className="flex justify-between xs:justify-start font-Open-sans">
